@@ -131,6 +131,10 @@ export function Pricing() {
 						<span className="text-green-400 font-bold">100% Práticas</span>
 					</div>
 				</div>
+
+				<p className="mt-8 text-sm text-muted-foreground text-center max-w-2xl mx-auto">
+					* A duração do curso depende do desenvolvimento do aluno e da frequência das aulas.
+				</p>
 			</div>
 		</section>
 	)
