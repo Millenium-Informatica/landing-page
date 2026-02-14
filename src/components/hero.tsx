@@ -19,9 +19,9 @@ export function Hero() {
 				initial={{ opacity: 0, y: 20 }}
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.8 }}
-				className="relative z-10 max-w-4xl"
+				className="relative z-10 max-w-5xl"
 			>
-				<div className="mx-auto mb-8 w-64 md:w-80">
+				<div className="mx-auto w-64 md:w-80">
 					<Image
 						src="/logo-phrase.png"
 						alt="Millenium Informática"
@@ -33,8 +33,8 @@ export function Hero() {
 				</div>
 
 				<h1 className="mb-6 text-4xl font-bold tracking-tight text-white sm:text-6xl md:text-7xl">
-					<span className="block">Tradição e Qualidade</span>
-					<span className="text-gradient block mt-2">em Medeiros</span>
+					<span className="block">A informática ao seu alcance</span>
+					<span className="text-gradient block mt-2">Medeiros - MG</span>
 				</h1>
 
 				<p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground sm:text-xl">
